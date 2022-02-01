@@ -1,0 +1,13 @@
+.button {
+  margin-top: 2vh;
+  margin-left: 1vw;
+}
+.button.remove {
+  background: #e51c23 linear-gradient(180deg, #e93e44, #e51c23) repeat-x;
+  color: white;
+}
+
+.button.remove:hover {
+  background: red linear-gradient(180deg, #e93e44, red) repeat-x;
+}
+

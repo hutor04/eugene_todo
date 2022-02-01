@@ -1,0 +1,41 @@
+.add-item-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 20vh;
+  margin-bottom: 2vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  border-radius: 5px;
+  border: lightgrey solid 1px;
+}
+
+.add-item-form input {
+  width: 45vw;
+  margin-bottom: 20px;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom: dimgray solid 1px;
+}
+
+.add-item-form input:focus {
+  outline: none;
+  border-bottom: olivedrab solid 2px;
+}
+
+.button.add-item {
+  background: #4caf50 linear-gradient(180deg, #67bb6a, #4caf50) repeat-x;
+  color: white;
+}
+
+.button.add-item:hover {
+  background: #32cd32 linear-gradient(180deg, #67bb6a, #32cd32 ) repeat-x;
+}
+
+@media only screen and (max-width: 600px) {
+  .add-item-form input {
+    width: 70vw;
+  }
+}
